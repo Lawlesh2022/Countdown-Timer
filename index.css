@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkmagenta;   
+}
+.container{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 20px auto;
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    width: 70%;
+    height: 20vh;
+    margin: 5px auto;
+    border: 5px solid blue;
+    border-radius: 20px;
+    font-size: 2rem;
+    color: blue;
+
+}
+.big-text{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0 2rem;
+    color: purple;
+}
+.countdown-e1{
+    text-align: center;
+}
+.countdown-e1 span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: blue;
+}
